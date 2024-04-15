@@ -1,6 +1,7 @@
-<?php
+<?PHP
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,6 @@
     <link rel="stylesheet" href="toop.css" />
     <title>projeto</title>
 </head>
-
 <style>
     body {
         margin: 0px;
@@ -45,7 +45,6 @@
     }
 
     .section {
-
         height: calc(100vh - 180px);
         /*soma os px do header do footere subtrai*/
         background-color: white;
@@ -65,7 +64,6 @@
         align-items: center;
         display: flex;
         justify-content: center;
-
     }
 
     .caixa2 {
@@ -77,7 +75,6 @@
 
     img {
         border-radius: 5px;
-
     }
 
     .aline {
@@ -112,6 +109,10 @@
         border: 2px solid #836FFF;
     }
 
+    .duas {
+        margin-top: 100px;
+    }
+
     input {
         padding: 0px;
         margin: 0px;
@@ -138,7 +139,6 @@
         justify-content: center;
     }
 
-
     .conta {
         align-items: center;
         display: flex;
@@ -157,7 +157,6 @@
         align-items: center;
         border-radius: 20px;
         box-shadow: 3px 3px 3px 3px #eeee;
-
     }
 
     .digitar {
@@ -194,7 +193,6 @@
         color: black;
         font-size: 30px;
         font-weight: bold;
-
     }
 
     .cadastro {
@@ -243,7 +241,6 @@
         font-weight: bold;
         margin-left: 5px;
         text-align: center;
-
     }
 
     .botao3:hover {
@@ -332,134 +329,50 @@
 </style>
 
 <body>
-
-    <header>
-        <div class="icon">
-            <img class="icones" src="icon.png" title="logomarca" alt="logomeninas" width="150px" height="50px">
-        </div>
-        <h1>Home</h1>
-        <h1>Trabalhos</h1>
-        <h1>Sobre</h1>
-        <h1>Contato</h1>
-        <h1>Avaliação</h1>
-
-    </header>
-
-
-    <div class="section">
-        <h7>Home</h7>
-        <img class="aline" src="aline.png" title="logomarca" alt="logomeninas" width="600px">
+    <header> </header>
     </div>
-
-
-    </div>
-
-    <div class="section duas">
-
-        <h10>Trabalhos</h10>
-        <div class="caixa">
-            <div class="foto">
-                <label>Gestante</label>
-                <img src="gestante.jpg" title="logomarca" alt="ny" width="200px" height="270px">
-            </div>
-            <div class="foto">
-                <label>Aniversário</label>
-                <img src="niver.jpg" title="logomarca" alt="bh" width="200px" height="270px">
-            </div>
-            <div class="foto">
-                <label>Mêsversarios</label>
-                <img src="mensal.jpg" title="logomarca" alt="ny" width="200px" height="275px">
-            </div>
-        </div>
-        <div class="caixa2">
-            <div class="foto">
-                <label>Família</label>
-                <img src="Familia.jpg" title="logomarca" alt="rio" width="300px" height="300">
-            </div>
-            <div class="foto">
-                <label>Eventos</label>
-                <img src="evento.jpg" title="logomarca" alt="bh" width="300px" height="300px">
-            </div>
-            <div class="foto">
-                <label>NewBorn</label>
-                <img src="new.jpg" title="logomarca" alt="rio" width="300px" height="300px">
-            </div>
-        </div>
-    </div>
-
-
     <div class="section contato">
         <h5>Sobre</h5>
         <div class="textoefoto">
             <div class="texto">
-                <p>O Estúdio ad foi criado em 07/02/2023 com o intuito de proporcionar aos seus clientes a oportunidade
-                    de
-                    eternizar os momentos mais incríveis na vida de cada um, seja a chegada de mais um integrante da
-                    família, os tão sonhados 15 anos, os momentos mais felizes e deliciosos da vida ou por simplesmente
-                    querer eternizar momentos incríveis!</p>
-                <p>Para que tudo isso se torne realidade, trabalhamos com uma equipe especializada em cada etapa da sua
-                    experiência de fotografar com a gente.</p>
-                <p>As Sócias:
-                    Mesmo atuando no ramo da fotografia há pouco tempo, trazem profissionais dedicadas que
-                    amam aquilo que fazem.</p>
-                <p>Os fotógrafos:
-                    Temos profissionais especializados em Design Gráfico, Ensaios femininos, Gestantes, Newborn, Eventos
-                    entre outros. Com todo seu conhecimento e dedicação, eles proporcionam aos seus clientes uma
-                    experiência
-                    fotográfica
-                    única, divertida e muito especial!</p>
-            </div>
-            <div class="imagem">
-                <img class="edu" src="edu.webp" title="logomarca" alt="ny" width="400px" height="700px">
+                <p>O Serviço de Aplicativo do Azure é um serviço com base em HTTP para hospedagem de aplicativos Web,
+                    APIs REST e back-ends móveis. Você pode desenvolver na sua linguagem favorita, seja ela .NET, .NET
+                    Core, Java, Node.js, PHP e Python. Os aplicativos são executados e escalados com facilidade em
+                    ambientes baseados no Windows e no Linux.</p>
+                <p>O Serviço de Aplicativo agrega o poder do Microsoft Azure ao seu aplicativo, como segurança,
+                    balanceamento de carga, dimensionamento automático e gerenciamento automatizado. Além disso, você
+                    pode aproveitar seus recursos de DevOps, como implantação contínua desde o Azure DevOps, GitHub,
+                    Docker Hub e outras fontes, gerenciamento de pacotes, ambientes de preparo, domínio personalizado e
+                    certificados TLS/SSL.</p>
+                <p>Com o Serviço de Aplicativo, você paga pelos recursos de computação do Azure que usar. Os recursos de
+                    computação usados são determinados pelo Plano do Serviço de Aplicativo no qual os aplicativos são
+                    executados.</p>
             </div>
         </div>
     </div>
-
     <div class="section login">
         <h7>Contatos: (35) 99729-7389</h7>
-        <p>Email: 893473@senacminas.edu.br</p>
+        <p>Email: eduardasousati@gmail.com</p>
         <div class="formulario">
-            <div class="esquerdo">
-                <label>Nome completo</label>
-                <input class="nome" type="text" placeholder="..." />
-                <label>Telefone</label>
-                <input class="nome" type="number" placeholder="(00) 00000-0000" />
-                <label>Email</label>
-                <input class="nome" type="email" placeholder="exemplo@gmail.com:" />
-                <p>Qual serviço você deseja solicitar?</p>
-                <fieldset>
-                    <input class="digi" type="checkbox" value="eventos"> Gestante<br>
-                    <input class="digi" type="checkbox" value="Familia"> Eventos<br>
-                    <input class="digi" type="checkbox" value="Familia"> Família<br>
-                    <input class="digi" type="checkbox" value="newborn"> NewBorn<br>
-                    <input class="digi" type="checkbox" value="mensal"> Mensal Baby<br>
-                    <input class="digi" type="checkbox" value="niver"> Aniversario<br>
-
-                </fieldset>
-            </div>
+            <div class="esquerdo"> <label>Nome completo</label> <input class="nome" type="text" placeholder="..." />
+                <label>Telefone</label> <input class="nome" type="number" placeholder="(00) 00000-0000" />
+                <label>Email</label> <input class="nome" type="email" placeholder="exemplo@gmail.com:" /> </div>
         </div>
-        <div class="botoes">
-            <button class="botao3" onclick="alert('Salvou')">Cadastrar</button>
-        </div>
+        <div class="botoes"> <button class="botao3" onclick="alert('Salvou')">Cadastrar</button> </div>
     </div>
     </div>
-
     <div class="section conta">
         <h7>Avaliação</h7>
         <div class="quadrado">
             <form>
                 <p>Como você avalia nosso serviço?</p>
-                <fieldset>
-                    <input class="digitar" type="radio" value="ruim"> Precisa melhorar!<br>
-                    <input class="digitar" type="radio" value="bom"> Bom!<br>
-                    <input class="digitar" type="radio" value="muitobom"> Muito bom!<br>
-                </fieldset>
+                <fieldset> <input class="digitar" type="radio" value="ruim"> Precisa melhorar!<br> <input
+                        class="digitar" type="radio" value="bom"> Bom!<br> <input class="digitar" type="radio"
+                        value="muitobom"> Muito bom!<br> </fieldset>
             </form>
         </div>
-        <h20>2023 Lavras-MG - Eduarda Sousa e Aline Furtado</h20>
+        <h20>2024 Lavras-MG - Eduarda Sousa</h20>
     </div>
-
-
 </body>
 
 </html>
